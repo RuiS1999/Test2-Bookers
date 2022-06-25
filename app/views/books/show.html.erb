@@ -8,7 +8,8 @@
     <strong>Body:</strong> <%=@book.body%>
   </p>
 
-<a>Edit</a> |
+<%=link_to "Edit","/books/#{@book.id}/edit"%>
+ | 
 <a class="back" href="/books">Back</a>
 
 

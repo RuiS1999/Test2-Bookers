@@ -13,7 +13,7 @@
         <td><%=book.title%></td>
         <td><%=book.body%></td>
         <td><%=link_to "Show","/books/#{book.id}"%></td>
-        <td><a href=>Edit</a></td>
+        <td><%=link_to "Edit","/books/#{book.id}/edit"%></td>
         <td><a href=>Destroy</a></td>
       </tr>
     <% end %>

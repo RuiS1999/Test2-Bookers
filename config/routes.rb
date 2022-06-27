@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   #           PATCH   /books/:id(.:format)          books#update
   #           PUT     /books/:id(.:format)          books#update
   #           DELETE  /books/:id(.:format)          books#destroy
-  get '/top'=>'homes#top'
+  root :to=>'homes#top'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
